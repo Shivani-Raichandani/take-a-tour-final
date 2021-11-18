@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="Enter your description here" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Registration Page | User</title>
+    
+    <!--<link rel="stylesheet" href="css/style1.css" type="text/css" />-->
+    <link href="css/reg.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+    <!-- header section starts  -->
+
+    <header class="header">
+        <a href="index.html" class="logo"> Take-a-Tour </a>
+        <!-- <i class="fas fa-paper-plane"></i> -->
+  
+        
+  
+        <div class="icons">
+          <div class="fas fa-bars" id="menu-btn" style="border-radius: 50%"></div>
+        </div>
+  
+        <nav class="navbar">
+          <a href="#home">home</a>
+          <a href="#packages">packages</a>
+          <a href="#services">services</a>
+          <a href="#pricing">pricing</a>
+          <a href="#review">review</a>
+          <a href="#contact">contact</a>
+          <a href="#blogs">blogs</a>
+        </nav>
+      </header>
+
+    
+      <div class="container">
+        <div class="reg" style="height: 110%;margin-bottom: 5%;">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="leftpart"> 
+                       <form class="regForm text-center" method="post" action="">                            
+                         <header>Create New Account</header>
+                            <div class="form-group">
+                                
+                              <i class="fas fa-user"></i>
+                              <input class="forminput" type="text" name="name" id="name"placeholder="Name"> 
+                              
+                          </div>
+  
+                          <div class="form-group">
+                              <i class="fas fa-envelope"></i>
+                              <input class="forminput" type="email" name="email" id="email"placeholder="Email">
+                          </div>
+  
+                          <div class="form-group">
+                              <i class="fas fa-lock"></i>
+                              <input class="forminput" type="password" name="pass" id="pass" placeholder="Password">  
+                          </div>
+                          <div class="form-group">
+                            <i class="fas fa-lock"></i>
+                            <input class="forminput" type="password" name="cp" placeholder="Confirm Password"> 
+                        </div>
+                          <div class="form-group">
+                            <i class="fas fa-phone"></i>
+                            <input class="forminput" type="text" pattern="[789][0-9]{9}" name="mob" id="contact" placeholder="Contact Number"> 
+                          </div>
+                          </br>
+                          <input type="submit" class="butt" value="CREATE ACCOUNT">
+                          <br>
+                          <br>
+                          Already have account?<a href="index.html">Login</a>
+                        </form>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="rightpart" data-aos="fade-right">
+                                
+                      <img src="images/reg.jpg" width="320" height="450">
+                                        
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+              AOS.init();
+            </script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>  
+  </body>
+</html>
